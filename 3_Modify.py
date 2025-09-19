@@ -38,3 +38,51 @@ else:
     print("Ticket price: $15 (Adult)")
 
 print("Enjoy the show!")
+
+
+
+"""
+Modify Activity 2: Checking for Even Numbers
+
+Task: The code below checks if a number is positive. Modify it
+so that it checks if a number is EVEN.
+
+Hint: An even number is a number that has no remainder when
+divided by 2. The modulo operator (%) gives you the remainder.
+For example, `10 % 2` is 0, but `9 % 2` is 1.
+"""
+
+number = 10 # Feel free to change this to test
+
+# --- MODIFY THE CODE BELOW ---
+
+if number > 0:
+  print("The number is positive.")
+else:
+  print("The number is not positive.")
+
+
+"""
+Modify Activity 3: Adding a Shipping Tier
+
+Task: The code below calculates shipping costs based on weight.
+Your task is to add a new shipping tier.
+
+Add an `elif` block that checks for weights up to 20 pounds
+and sets the shipping_cost to $15.00.
+"""
+
+weight = 15 # Feel free to change this to test
+
+shipping_cost = 0
+
+if weight <= 2:
+  shipping_cost = 5.00
+elif weight <= 10:
+  shipping_cost = 10.00
+# --- ADD YOUR ELIF BLOCK HERE ---
+else:
+  shipping_cost = 25.00 # For heavy items
+
+print(f"The shipping cost for an item weighing {weight} pounds is ${shipping_cost:.2f}.")
+
