@@ -36,3 +36,25 @@ else:
     print("Ticket price: $15 (Adult)")
 
 print("Enjoy the show!")
+
+
+"""
+Predict Activity 2: Number Check
+
+Task: Without running the code, predict what the output will be.
+Write down your prediction and your reasoning in a comment.
+
+What do you think will be printed to the screen when this program runs?
+"""
+
+# Your Prediction:
+#
+# Your Reasoning:
+#
+
+temperature = 25
+
+if temperature > 30:
+  print("It's a hot day!")
+else:
+  print("It's not too hot today.")
