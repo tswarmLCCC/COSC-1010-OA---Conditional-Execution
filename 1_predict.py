@@ -1,20 +1,25 @@
 """
-# PRIMM: Investigate 1
+# PRIMM: Predict 1
 
 ## Instructions
 
-Now, let's investigate the code from the "Predict" activity. 
-Run the code in a Python environment to see the actual output. 
-Then, answer the questions below.
+Read the following Python code snippet carefully. 
+**Without running the code**, write down what you think the exact output will be. 
+Explain your reasoning in a sentence or two.
 
 ---
 
-### Questions
+### Your Prediction
 
-1.  **First Question:** The first `if` statement checks the condition `age < 13`. Is this condition `True` or `False`? Why?
-2.  **Second Question:** The `elif` statement checks the condition `age < 18`. Why does the program check this condition *after* the first `if` statement?
-3.  **Flow of Control:** Which of the three `print` statements for the ticket price was executed? Why were the other two skipped?
-4.  **Indentation:** What do you think would happen if you removed the indentation (the spaces) before `print("Ticket price: $12 (Teen)")`?
+**Predicted Output:**
+
+```
+(Write what you think the program will print here)
+```
+
+**Reasoning:**
+
+(Explain why you think it will produce that output)
 
 """
 
